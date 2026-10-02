@@ -1,0 +1,31 @@
+PROYECTO PHP - ENTRADAS, PROCESOS Y SALIDAS
+
+1. En XAMPP enciende Apache y MySQL.
+2. Copia la carpeta proyecto_sii_php dentro de:
+   C:\xampp\htdocs\
+3. Entra a http://localhost/phpmyadmin
+4. Importa el archivo bd.sql.
+5. Abre:
+   http://localhost/proyecto_sii_php/
+
+La conexión a MySQL está en conexion.php.
+Si tu MySQL tiene contraseña, cambia la variable $pass en conexion.php.
+
+ENTRADAS:
+- Alumnos
+- Grupos
+- Materias
+- Profesores
+
+PROCESOS:
+- Asignar grupo = id_grupo, id_alumno, id_profesor
+- Asignar materia = id_materia, id_alumno, id_profesor
+
+SALIDAS:
+- Lista alumnos
+- Lista materias
+- Lista grupos
+- Boletas
+- Alumnos de baja
+
+El código está separado por archivos para que sea fácil de entregar y explicar.
